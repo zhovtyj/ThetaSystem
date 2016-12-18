@@ -1,0 +1,44 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+    float:right;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+.logo{
+
+    width:150px;
+    height:50px;
+    background:#ccc;
+    text-align: center;
+    line-height: 50px;
+    color:#5e5e5e;
+}
+.navbar-fixed-top .nav li{
+    padding:15px 10px 0;
+    color:#9d9d9d;
+}
+.li-progress-bar{
+    width:250px;
+}
+.li-progress-bar-span{
+    color:#000;
+}
+.navbar-fixed-top .nav a{
+    padding: 0;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
